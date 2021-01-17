@@ -1,0 +1,28 @@
+
+{
+    "name": "@meghagupta0891/lotide",
+    "version": "1.0.0",
+    "description": "a knock off lodash",
+    "main": "assertArraysEqual.js",
+    "directories": {
+      "test": "test"
+    },
+    "dependencies": {},
+    "devDependencies": {
+      "chai": "^4.2.0",
+      "mocha": "^6.1.4"
+    },
+    "scripts": {
+      "test": "mocha"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/meghagupta0891/Lotide.git"
+    },
+    "author": "jessie",
+    "license": "ISC",
+    "bugs": {
+      "url": "https://github.com/meghagupta0891/Lotide/issues"
+    },
+    "homepage": "https://github.com/meghagupta0891/Lotide#readme"
+  }

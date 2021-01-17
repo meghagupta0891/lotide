@@ -26,7 +26,7 @@ const assertEqualTail = function(tail,targetArr) {
         assertEqualResult = false;
     }
     else {
-        for(var i = 0; i < result.length; i++) {
+        for(var i = 0; i < result.length - 1; i++) {
           asertEqualResult = assertEqual(tail[i],targetArr[i]);
           if(!assertEqualResult)
             break;
