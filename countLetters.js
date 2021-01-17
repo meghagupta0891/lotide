@@ -13,3 +13,4 @@ const countLetters = function(str) {
 
 countLetters('this is lighthouse labs');
 countLetters('LHl');
+module.exports = countLetters;

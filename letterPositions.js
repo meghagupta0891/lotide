@@ -16,3 +16,4 @@ const letterPositions = function(str) {
   };
   
   letterPositions('this is lighthouse labs');
+  module.exports = letterPositions;
