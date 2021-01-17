@@ -15,18 +15,18 @@ const countOnly = require('./countOnly');
 const without = require('./without');
 
 module.exports = {
-  head:   head,
-  tail:   tail,
-  middle: middle,
-  assertArraysEqual: assertArraysEqual,
-  eqArrays : eqArrays,
-  letterPositions : letterPositions,
-  assertEqual : assertEqual,
-  eqObjects : eqObjects,
-  map : map,
-  assertObjectsEqual : assertObjectsEqual,
-  findKeyByValue : findKeyByValue,
-  countLetters : countLetters,
-  countOnly : countOnly,
-  without : without
+  head,
+  tail,
+  middle,
+  assertArraysEqual,
+  eqArrays,
+  letterPositions,
+  assertEqual,
+  eqObjects,
+  map,
+  assertObjectsEqual,
+  findKeyByValue,
+  countLetters,
+  countOnly,
+  without
 };
