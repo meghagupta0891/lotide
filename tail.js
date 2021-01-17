@@ -1,12 +1,4 @@
-const assertEqual = function(actual, expected) {
-    if(actual === expected) {
-        return true;
-    }
-    else {
-        return false;
-    }
- };
-
+const assertEqual = require('./assertEqual')
 
  const tail = function(arr) {
     if(!arr || arr.length == 0 || arr.length == 1) {
