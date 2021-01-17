@@ -39,7 +39,4 @@ const assertEqualTail = function(tail,targetArr) {
         console.log('Assertion failed : '+ tail + " !== " + targetArr);
     }
 }
-
-const result = tail(["Hello", "Lighthouse", "Labs"]);
-assertEqualTail(result, ["Lighthouse", "Labs","Hello"]);
-
+module.exports = {assertEqualTail,tail};
